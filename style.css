@@ -1,0 +1,176 @@
+.navbar-nav{
+    margin-left: 50px;
+}
+.nav2{
+    margin-left: 400px;
+}
+.material-symbols-sharp {
+    color: white;
+  }
+ 
+ .navbar-brand img{
+    width: 40px;
+    height: auto;
+    margin-left: 50px;
+ }
+
+*{
+    margin: 0;
+    border: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+    max-width: 100%;
+}
+.carousal img{
+    height: 576px;
+    min-width: 100%;
+    object-fit: fill;
+}
+.card-ful{
+    margin-top: 15px;
+}
+.card{
+    display: inline-block;
+    position: relative;
+}
+.text{
+    z-index: 1;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    color:white;
+    text-align: center;
+}
+.inner:hover img{
+    transform: scale(1.2);
+}
+.inner img{
+transition: all 1.5s ease;
+}
+.inner{
+    overflow: hidden;
+}
+.shop{
+    text-align: center;
+    color: #717171;
+    margin-top: 90px;
+   
+}
+.benz-h2{
+    text-align: center;
+    margin-top: 25px;
+    font-family: MBCorpoA, Georgia, serif;
+}
+.left{
+    
+    display: flex;
+    flex-direction: row;
+ 
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    height: 580px;
+    
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+.right img{
+    height: 240px;
+    width: 380px;
+}
+.right h6{
+    color: #2e7cbe;
+    
+    font-family: MBCorpoA, Georgia, serif;
+    margin-left: 45px;
+    
+}
+.tex{
+    color: #2e7cbe;
+    font-family: MBCorpoA, Georgia, serif;
+    margin-left: 75px;
+    margin-bottom: 5px;
+}
+.benz-h2{
+    margin-bottom: 50px;
+}
+.left-text{
+    margin-left: 300px;
+    margin-top: 10px;
+    font-family: MBCorpoA, Georgia, serif;
+    color: #2e7cbe;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+   
+  
+}
+.footer-item1{
+    display: flex;
+    flex-direction: column;
+    font-family: MBCorpoS, Arial, sans-serif;
+    margin-left: 80px;
+   
+   
+}
+.footer-item1 h4{
+    border-bottom: #000000;
+    border-style: dotted;
+    margin-top: 10px;
+}
+.footer-item1 a{
+    text-decoration: none;
+    color: #000000;
+    margin-top: 10px;
+    
+}
+
+.footer-main{
+    background-color: #f1f1f1;
+    min-width: 100%;
+    margin-top: 60px;
+}
+.foot2{
+    font-family: MBCorpoS, Arial, sans-serif;
+   
+}
+.foot2 h4{
+    margin-left: 20px;
+    margin-top: 10px;
+    border-bottom: #000000;
+    border-style:dotted;
+}
+.foot2 h6{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#email{
+    margin-left: 20px;
+    margin-top: 20px;
+    border: none;
+    font-family: MBCorpoS, Arial, sans-serif;
+}
+button{
+    background-color: #000000;
+    color: white;
+    font-weight: bolder;
+}
+.icon img{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+.icon{
+    margin-left: 20px;
+    margin-top: 20px;
+}
